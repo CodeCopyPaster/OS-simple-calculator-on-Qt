@@ -61,7 +61,7 @@ void MainWindow::on_TwoButton_clicked()
 
 
 void MainWindow::on_ResultButton_clicked()
-{ // crashes with switch(case) 🙃
+{ // bugs with switch(case) 🙃
     if (expres == 1) {
         double ans = num1.toDouble() + num2.toDouble();
         ui->Label->setText(QString::number(ans));
